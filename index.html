@@ -1,1 +1,60 @@
-# temp-cuddly-guacamole
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Node.js Email Sender</title>
+</head>
+
+<body>
+  <h1>Node.js Email Sender</h1>
+  <p>This is a simple Node.js application that sends emails using Nodemailer. It provides an API endpoint that allows you to trigger sending an email.</p>
+
+  <h2>Prerequisites</h2>
+  <p>Before running this application, make sure you have the following installed:</p>
+  <ul>
+    <li>Node.js (v12 or higher)</li>
+    <li>NPM (Node Package Manager)</li>
+  </ul>
+
+  <h2>Installation</h2>
+  <ol>
+    <li>Clone the repository</li>
+    <li>Navigate to the project directory and install the dependencies:</li>
+  </ol>
+  <pre><code>cd email-sender-test
+npm install
+  </code></pre>
+
+  <h2>Usage</h2>
+  <p>Open the index.js file in a text editor.</p>
+  <p>Update the transporter and mailOptions objects with your Gmail account credentials and the email details (from, to, subject, and text).</p>
+  <p>Save the changes.</p>
+  <p>Start the application:</p>
+  <pre><code>npm start
+  </code></pre>
+  <p>This will start the server on port 3000.</p>
+  <p>Open your web browser and navigate to <a href="http://localhost:3000/send-email">http://localhost:3000/send-email</a>. This will trigger the email sending process.</p>
+  <p>Check the console for logs. If the email was sent successfully, you will see a success message along with the email response. If there was an error, you will see an error message.</p>
+
+  <h3>API Endpoint</h3>
+  <p>The application provides the following API endpoint:</p>
+  <p><strong>GET /send-email</strong>: Sends an email using the configured transporter and mail options.</p>
+
+  <h2>Contributing</h2>
+  <p>Contributions are welcome! If you find any issues or want to add new features, feel free to open a pull request.</p>
+
+  <h2>License</h2>
+  <p>This project is licensed under the MIT License.</p>
+
+  <h2>Acknowledgements</h2>
+  <p>This application utilizes the following packages:</p>
+  <ul>
+    <li>Express: Fast, unopinionated, minimalist web framework for Node.js.</li>
+    <li>Nodemailer: Send e-mails with Node.js.</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>If you have any questions or suggestions, please feel free to contact me at nobleosinachi@gmail.com.</p>
+</body>
+
+</html>
